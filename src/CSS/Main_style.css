@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(124, 162, 196);
+  height: 100vh;
+}
+
+.night-mode .app{
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.night-mode button {
+  border: none;
+  background-color: rgb(32, 32, 32);
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+}
+
+.night-mode button:hover {
+  background-color: rgb(93, 83, 160);
+}
+
+.night-mode .equals {
+  grid-column: 3 / 5;
+  background-color: rgb(243, 61, 29);
+}
+
+.night-mode .equals:hover {
+  background-color: rgb(255, 103, 82);
+}
+
+.night-mode .wrapper {
+  width: 340px;
+  height: 540px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
